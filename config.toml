@@ -23,6 +23,7 @@ copyright = "Copyright © {year} Jeff Sasaki"
   # Currently, these icons are supported: 
   #   "Twitter", "GitHub", "Email", "Facebook", "GitLab", "Instagram", "LinkedIn", "YouTube"
   iconTitles = ["GitHub", "Twitter", "LinkedIn", "Email"]
+  customCss = ["scss/custom.scss"]
 
 # This disables Hugo's default syntax highlighting in favor
 # of prismjs. If you wish to use Hugo's default syntax highlighting
