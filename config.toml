@@ -1,0 +1,51 @@
+baseURL = "https://www.jeffsasaki.com/"
+languageCode = "en-us"
+title = "Jeff Sasaki | Software Developer | Full Stack Developer"
+theme = "codex"
+copyright = "Copyright © {year} Jeff Sasaki"
+
+[params]
+  # Follow the Hugo date/time format reference here: 
+  # https://gohugo.io/functions/format/#gos-layout-string
+  # dateFormat = "Jan 2 2006"
+
+  # Links to your social accounts, comment/uncomment as needed. Icons will be displayed for those specified.
+  twitter = "https://twitter.com/jeffreysasaki"
+  github = "https://github.com/jeffreysasaki"
+  email = "/contact"
+  # facebook = "https://facebook.com/<your handle>"
+  # gitlab = "https://gitlab.com/<your handle>"
+  # instagram = "https://instagram.com/<your handle>"
+  linkedin = "https://www.linkedin.com/in/jeffreysasaki/"
+  # youtube = "https://www.youtube.com/channel/<your channel>"
+  
+  # Titles for your icons (shown as tooltips), and also their display order.
+  # Currently, these icons are supported: 
+  #   "Twitter", "GitHub", "Email", "Facebook", "GitLab", "Instagram", "LinkedIn", "YouTube"
+  iconTitles = ["GitHub", "Twitter", "LinkedIn", "Email"]
+
+# This disables Hugo's default syntax highlighting in favor
+# of prismjs. If you wish to use Hugo's default syntax highlighting
+# over prismjs, remove this. You will also need to remove the prismjs
+# vendor script in layouts/blog/single.html.
+[markup]
+  [markup.highlight]
+    codeFences = false
+    
+  # Set to false to disallow raw HTML in markdown files
+  [markup.goldmark.renderer]
+      unsafe = true
+
+# Controls the navigation
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  title = "Home"
+  url = "/"
+  weight = -1
+
+[[menu.main]]
+  identifier = "contact"
+  name = "Contact"
+  title = "Contact"
+  url = "/contact"
