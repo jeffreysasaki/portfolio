@@ -1,4 +1,4 @@
-baseURL = "https://www.jeffsasaki.com/"
+baseURL = ""
 languageCode = "en-us"
 title = "Jeff Sasaki | Software Developer | Full Stack Developer"
 theme = "codex"
