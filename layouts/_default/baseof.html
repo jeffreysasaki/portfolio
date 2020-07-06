@@ -61,7 +61,10 @@
 
   {{ $script := resources.Get "js/index.js" | minify | fingerprint }}
   <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity | safeHTMLAttr }}" crossorigin="anonymous"></script>
+  {{ $customScript := resources.Get "js/script.js" | minify | fingerprint }}
+  <script src="{{ $customScript.RelPermalink }}" integrity="{{ $customScript.Data.Integrity | safeHTMLAttr }}" crossorigin="anonymous"></script>
   {{ block "scripts" . }} {{ end }}
+  
 </body>
 
 </html>
