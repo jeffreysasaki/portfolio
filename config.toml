@@ -10,7 +10,7 @@ copyright = "Copyright © {year} Jeff Sasaki"
   # dateFormat = "Jan 2 2006"
 
   # Links to your social accounts, comment/uncomment as needed. Icons will be displayed for those specified.
-  twitter = "https://twitter.com/jeffreysasaki"
+  # twitter = "https://twitter.com/jeffreysasaki"
   github = "https://github.com/jeffreysasaki"
   email = "/contact"
   # facebook = "https://facebook.com/<your handle>"
