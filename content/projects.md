@@ -1,5 +1,6 @@
 ---
-title: Projects
+title: "Projects"
+slug: "projects"
 ---
 
 ## [Hashtag Pick](http://www.hashtagpick.com)

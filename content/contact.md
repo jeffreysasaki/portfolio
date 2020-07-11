@@ -1,5 +1,6 @@
 ---
 title: "Contact Me"
+slug: "contact"
 ---
 <form id="contact" name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
   <p>
