@@ -16,7 +16,6 @@ slug: "contact"
     <textarea rows="4" name="message" required></textarea>
   </p>
   <p>
-    <div data-netlify-recaptcha="true"></div>
     <div class="g-recaptcha" data-sitekey="6Lf7hc4ZAAAAAMxUugUmTgi-CoRz7rMebzYO3S1c"></div>
     <button type="submit">Send</button>
   </p>
