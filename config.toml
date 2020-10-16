@@ -4,6 +4,10 @@ title = "Jeff Sasaki | Software Developer | Full Stack Developer"
 theme = "codex"
 copyright = "Copyright © {year} Jeff Sasaki"
 
+[module]
+  [module.hugoVersion]
+    extended = true
+
 [params]
   # Follow the Hugo date/time format reference here: 
   # https://gohugo.io/functions/format/#gos-layout-string
