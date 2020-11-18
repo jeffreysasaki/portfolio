@@ -5,14 +5,14 @@
   {{ range $icons }}
     {{ $icon := anchorize . }} 
     {{ if isset $currentPage.Site.Params $icon }}
-      <a class="social-icons__icon" title="{{ . }}"
-         style="background-image: url('{{print "/svg/" $icon ".svg" | absURL}}')" 
-         href="{{ index $currentPage.Site.Params $icon }}"
-         {{ if ne $icon "email" }}
-         target="_blank"
-         {{ end }}
-         rel="noopener">
-      </a>
+    <a class="social-icons__link" title="{{ . }}"
+      href="{{ index $currentPage.Site.Params $icon }}"
+      {{ if ne $icon "email" }}
+      target="_blank"
+      {{ end }}
+      rel="noopener">
+      <div class="social-icons__icon" style="background-image: url('{{print "svg/" $icon ".svg" | absURL}}')"></div>
+    </a>
     {{ end }}
-  {{ end }}   
+  {{ end }}
 </div>
