@@ -4,19 +4,27 @@ slug: "projects"
 ---
 
 ## [Hashtag Pick](http://www.hashtagpick.com)
-A simple hashtag generator based on current trends
 
-Tech Stack:
-- React
-- Node.js
+[![Hashtag Pick](/images/hashtagpick.png)](http://www.hashtagpick.com)
 
-www.hashtagpick.com | [Source Code](https://github.com/jeffreysasaki/hashtagpick)
+Hashtag generator based on current trends.
 
-## [Vulnerscan](https://www.vulnerscan.com) (Work in Progress)
-A vulnerability scanner built on top of Metasploit.
+Link: www.hashtagpick.com
+<hr>
 
-Tech Stack:
-- Ruby on Rails
-- PostgreSQL
+## [Vulnerscan](https://www.vulnerscan.com)
 
-www.vulnerscan.com
+[![Vulnerscan](/images/vulnerscan.png)](http://www.vulnerscan.com)
+
+Vulnerability scanner built on top of Metasploit.
+
+Link: www.vulnerscan.com
+<hr>
+
+## [SilverCrank](https://www.silvercrank.com)
+
+[![SilverCrank](/images/silvercrank.jpg)](https://www.silvercrank.com)
+
+Business venture focusing on developing e-commerce storefronts for small-businesses.
+
+Link: www.silvercrank.com
