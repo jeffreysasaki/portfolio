@@ -4,8 +4,9 @@ a,
 a:visited,
 .handle {
     font-family: 'Quicksand', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-    color: #313131;
+    color: #ffffff;
     font-weight: 700;
+    background-color: #000;
 }
 nav li a,
 nav li a:visited,
@@ -44,9 +45,14 @@ a.anchor {
         padding: 12px;
         width: 100%;
         border-radius: 10rem;
-        border: 1px solid #f7f7f7;
-        background-color: #20bf7e;
+        border: 1px solid #ffffff;
+        background-color: #000000;
         cursor: pointer;
+        
+        &:hover {
+            color: #000000;
+            background-color: #ffffff;
+        }
     }
 }
 .post img {
@@ -56,4 +62,33 @@ a.anchor {
 
 hr {
     margin: 2rem 0;
+}
+
+nav.nav {
+    background-color: #000;
+    
+    .nav__list a.active,
+    .nav__list a:hover {
+        color: #ffffff;
+    }
+}
+
+footer {
+    &.post__footer {
+        background-color: #000000;
+
+        p {
+            color: #ffffff
+        }
+    }
+}
+
+div.burger__container {
+    background-color: #000000;
+
+    .burger {
+        .burger__meat {
+            background-color: #ffffff;
+        }
+    }
 }
