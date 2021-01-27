@@ -42,9 +42,10 @@ $tocBreakpoint: 1024px;
     width: 95%;
     margin: 0 auto;
     font-size: 1rem;
+    color: $white;
 
     a {
-      color: $darkGrey;
+      color: $white;
       text-decoration: underline;
     }
   }

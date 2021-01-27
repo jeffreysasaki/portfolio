@@ -57,8 +57,15 @@ copyright = "Copyright © {year} Jeff Sasaki"
   weight = 1
 
 [[menu.main]]
+  identifier = "blog"
+  name = "Blog"
+  title = " Blog"
+  url = "/blog"
+  weight = 2
+
+[[menu.main]]
   identifier = "contact"
   name = "Contact"
   title = "Contact"
   url = "/contact"
-  weight = 2
+  weight = 3
