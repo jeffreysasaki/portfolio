@@ -2,16 +2,6 @@
 title: "Projects"
 slug: "projects"
 ---
-
-## [Hashtag Pick](http://www.hashtagpick.com)
-
-[![Hashtag Pick](/images/hashtagpick.png)](http://www.hashtagpick.com)
-
-Hashtag generator based on current trends.
-
-Link: www.hashtagpick.com
-<hr>
-
 ## [SilverCrank](https://www.silvercrank.com)
 
 [![SilverCrank](/images/silvercrank.jpg)](https://www.silvercrank.com)
@@ -28,3 +18,12 @@ Link: www.silvercrank.com
 Vulnerability scanner built on top of Metasploit.
 
 Link: www.vulnerscan.com
+
+## [Hashtag Pick](http://www.hashtagpick.com)
+
+[![Hashtag Pick](/images/hashtagpick.png)](http://www.hashtagpick.com)
+
+Hashtag generator based on current trends.
+
+Link: www.hashtagpick.com
+<hr>
